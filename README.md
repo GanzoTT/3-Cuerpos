@@ -22,19 +22,14 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
 
 2. **Cálculo de aceleraciones**
    - La función `acceleration()` calcula la aceleración sobre cada cuerpo aplicando la **Ley de Gravitación Universal**:
-     \[
-     \vec{F}_{ij} = G \cdot \frac{m_j}{|\vec{r}_j - \vec{r}_i|^3} (\vec{r}_j - \vec{r}_i)
-     \]
+
+     `F_ij = G * m_j * (r_j - r_i) / |r_j - r_i|^3`
 
 3. **Integración temporal (Euler)**
-   - Actualización de velocidades:
-     \[
-     \vec{v}_{t+dt} = \vec{v}_t + \vec{a}_t \cdot dt
-     \]
-   - Actualización de posiciones:
-     \[
-     \vec{r}_{t+dt} = \vec{r}_t + \vec{v}_{t+dt} \cdot dt
-     \]
+   - Actualización de velocidades:  
+     `v(t+dt) = v(t) + a(t) * dt`
+   - Actualización de posiciones:  
+     `r(t+dt) = r(t) + v(t+dt) * dt`
 
 4. **Simulación**
    - Se ejecuta un bucle de `steps = 5000` iteraciones.
