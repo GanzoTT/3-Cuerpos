@@ -51,8 +51,6 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
 Clona este repositorio y ejecuta el script principal:
 
     ```bash
-
-
 python tres_cuerpos.py
 
 
