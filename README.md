@@ -26,9 +26,12 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
     ![Fórmula de Gravitación](https://latex.codecogs.com/svg.latex?F%20=%20G%20%5Cfrac%7Bm_1m_2%7D%7Br%5E2%7D)
 
 3. **Integración temporal (Euler)**
-   - Actualización de velocidades:  
-     ![Velocidad](https://latex.codecogs.com/svg.latex?v(t+dt)=v(t)+a(t)\cdot%20dt)  
-   - Actualización de posiciones:  
+   - Actualización de velocidades:
+    
+     ![Velocidad](https://latex.codecogs.com/svg.latex?v(t+dt)=v(t)+a(t)\cdot%20dt)
+
+   - Actualización de posiciones:
+     
      ![Posición](https://latex.codecogs.com/svg.latex?r(t+dt)=r(t)+v(t+dt)\cdot%20dt)
 
 4. **Simulación**
