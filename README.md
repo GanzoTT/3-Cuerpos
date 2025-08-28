@@ -27,9 +27,9 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
 
 3. **Integración temporal (Euler)**
    - Actualización de velocidades:  
-     `v(t+dt) = v(t) + a(t) * dt`
+     ![Velocidad](https://latex.codecogs.com/svg.latex?v(t+dt)=v(t)+a(t)\cdot%20dt)  
    - Actualización de posiciones:  
-     `r(t+dt) = r(t) + v(t+dt) * dt`
+     ![Posición](https://latex.codecogs.com/svg.latex?r(t+dt)=r(t)+v(t+dt)\cdot%20dt)
 
 4. **Simulación**
    - Se ejecuta un bucle de `steps = 5000` iteraciones.
