@@ -23,7 +23,7 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
 2. **Cálculo de aceleraciones**
    - La función `acceleration()` calcula la aceleración sobre cada cuerpo aplicando la **Ley de Gravitación Universal**:
 
-     `F_ij = G * m_j * (r_j - r_i) / |r_j - r_i|^3`
+    ![Fórmula de Gravitación](https://latex.codecogs.com/svg.latex?F%20=%20G%20%5Cfrac%7Bm_1m_2%7D%7Br%5E2%7D)
 
 3. **Integración temporal (Euler)**
    - Actualización de velocidades:  
