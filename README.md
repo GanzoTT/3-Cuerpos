@@ -48,11 +48,10 @@ A diferencia del problema de dos cuerpos, no existe una solución analítica gen
 
 ## 🚀 Ejecución
 
-Clona este repositorio y ejecuta el script principal:
+**Clona este repositorio y ejecuta el script principal:**
 
-    ```bash
-python tres_cuerpos.py
-
+    ```bash 
+    python tres_cuerpos.py
 
 
 Esto generará una gráfica con las trayectorias simuladas.
